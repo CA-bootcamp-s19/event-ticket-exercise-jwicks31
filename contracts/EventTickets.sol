@@ -11,7 +11,7 @@ contract EventTickets {
         Use the appropriate keyword to create an associated getter function.
         Use the appropriate keyword to allow ether transfers.
      */
-    address owner;
+    address payable public owner;
 
     uint   TICKET_PRICE = 100 wei;
 
